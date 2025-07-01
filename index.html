@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnuragTravels - Your Perfect Travel Companion</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-plane-departure"></i>
+                <span>AnuragTravels</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Flights</a>
+                <a href="#">Hotels</a>
+                <a href="#">Holidays</a>
+                <a href="#">Trains</a>
+                <a href="#">Buses</a>
+            </div>
+            <div class="nav-actions">
+                <button class="icon-btn"><i class="fas fa-bell"></i></button>
+                <button class="icon-btn"><i class="fas fa-user-circle"></i></button>
+                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+                <button class="primary-btn">Sign In</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Discover Your Next Adventure</h1>
+                <p>Book flights, hotels, and holiday packages at the best prices</p>
+                <div class="hero-buttons">
+                    <button class="primary-btn accent">Book Now</button>
+                    <button class="secondary-btn">Explore Deals</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Travel Destinations">
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search">
+        <div class="container">
+            <div class="search-card">
+                <div class="search-tabs">
+                    <button class="tab-button active">Flights</button>
+                    <button class="tab-button">Hotels</button>
+                    <button class="tab-button">Holidays</button>
+                    <button class="tab-button">Trains</button>
+                    <button class="tab-button">Buses</button>
+                </div>
+                
+                <div class="search-fields">
+                    <div class="search-field">
+                        <label>From</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-plane-departure"></i>
+                            <input type="text" placeholder="City or Airport">
+                        </div>
+                    </div>
+                    <div class="search-field">
+                        <label>To</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-plane-arrival"></i>
+                            <input type="text" placeholder="City or Airport">
+                        </div>
+                    </div>
+                    <div class="search-field">
+                        <label>Travel Date</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-calendar-day"></i>
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="search-fields secondary">
+                    <div class="search-field">
+                        <label>Return Date</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-calendar-day"></i>
+                            <input type="date">
+                        </div>
+                    </div>
+                    <div class="search-field">
+                        <label>Travellers</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-user-friends"></i>
+                            <select>
+                                <option>1 Adult</option>
+                                <option>2 Adults</option>
+                                <option>3 Adults</option>
+                                <option>4 Adults</option>
+                                <option>Family (2+2)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="search-field">
+                        <label>Class</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-couch"></i>
+                            <select>
+                                <option>Economy</option>
+                                <option>Premium Economy</option>
+                                <option>Business</option>
+                                <option>First Class</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="search-button">
+                        <button class="primary-btn">Search <i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                
+                <div class="search-tags">
+                    <div class="tag">
+                        <i class="fas fa-clock"></i>
+                        <span>Non-stop</span>
+                    </div>
+                    <div class="tag">
+                        <i class="fas fa-rupee-sign"></i>
+                        <span>Best Prices</span>
+                    </div>
+                    <div class="tag">
+                        <i class="fas fa-bolt"></i>
+                        <span>Instant Confirmation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section class="deals">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hot Deals & Discounts</h2>
+                <a href="#">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="deals-grid">
+                <!-- Deal 1 -->
+                <div class="deal-card">
+                    <div class="price-badge">
+                        <span>30%<br>OFF</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Bali Vacation">
+                    <div class="deal-content">
+                        <h3>Bali Getaway</h3>
+                        <p>5D/4N with flights & hotel</p>
+                        <div class="deal-footer">
+                            <div class="price">
+                                <span class="old-price">₹45,999</span>
+                                <span class="new-price">₹32,199</span>
+                            </div>
+                            <button class="deal-btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Deal 2 -->
+                <div class="deal-card">
+                    <div class="price-badge">
+                        <span>25%<br>OFF</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="European Tour">
+                    <div class="deal-content">
+                        <h3>European Tour</h3>
+                        <p>10D/9N across 4 countries</p>
+                        <div class="deal-footer">
+                            <div class="price">
+                                <span class="old-price">₹1,25,999</span>
+                                <span class="new-price">₹94,499</span>
+                            </div>
+                            <button class="deal-btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Deal 3 -->
+                <div class="deal-card">
+                    <div class="price-badge">
+                        <span>15%<br>OFF</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Maldives Package">
+                    <div class="deal-content">
+                        <h3>Maldives Escape</h3>
+                        <p>4D/3N in water villa</p>
+                        <div class="deal-footer">
+                            <div class="price">
+                                <span class="old-price">₹68,999</span>
+                                <span class="new-price">₹58,649</span>
+                            </div>
+                            <button class="deal-btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Deal 4 -->
+                <div class="deal-card">
+                    <div class="price-badge">
+                        <span>20%<br>OFF</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Dubai Package">
+                    <div class="deal-content">
+                        <h3>Dubai Experience</h3>
+                        <p>5D/4N with desert safari</p>
+                        <div class="deal-footer">
+                            <div class="price">
+                                <span class="old-price">₹52,999</span>
+                                <span class="new-price">₹42,399</span>
+                            </div>
+                            <button class="deal-btn"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section class="destinations">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular Destinations</h2>
+                <a href="#">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="destinations-grid">
+                <!-- Destination 1 -->
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Goa">
+                    <div class="destination-overlay">
+                        <h3>Goa</h3>
+                        <p>Starting ₹8,499</p>
+                    </div>
+                </div>
+                
+                <!-- Destination 2 -->
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Dubai">
+                    <div class="destination-overlay">
+                        <h3>Dubai</h3>
+                        <p>Starting ₹24,999</p>
+                    </div>
+                </div>
+                
+                <!-- Destination 3 -->
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Bali">
+                    <div class="destination-overlay">
+                        <h3>Bali</h3>
+                        <p>Starting ₹22,999</p>
+                    </div>
+                </div>
+                
+                <!-- Destination 4 -->
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Paris">
+                    <div class="destination-overlay">
+                        <h3>Paris</h3>
+                        <p>Starting ₹45,999</p>
+                    </div>
+                </div>
+                
+                <!-- Destination 5 -->
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Maldives">
+                    <div class="destination-overlay">
+                        <h3>Maldives</h3>
+                        <p>Starting ₹38,999</p>
+                    </div>
+                </div>
+                
+                <!-- Destination 6 -->
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Singapore">
+                    <div class="destination-overlay">
+                        <h3>Singapore</h3>
+                        <p>Starting ₹25,999</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose TravelEase?</h2>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Instant Confirmation</h3>
+                    <p>Get immediate booking confirmation with e-tickets sent directly to your email.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rupee-sign"></i>
+                    </div>
+                    <h3>Best Price Guarantee</h3>
+                    <p>We promise the lowest prices or we'll match/beat any competitor's price.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Customer Support</h3>
+                    <p>Our travel experts are available round the clock to assist you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Customer">
+                        </div>
+                        <div>
+                            <h4>Priya Sharma</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Our Bali trip was perfectly organized by TravelEase. The hotels were excellent and the flights were on time. Will definitely book again!"</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Customer">
+                        </div>
+                        <div>
+                            <h4>Rahul Mehta</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Got an amazing deal on our Europe tour. The customer support team was very helpful in customizing our itinerary."</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer">
+                        </div>
+                        <div>
+                            <h4>Ananya Patel</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"The Maldives package was worth every penny. The water villa experience was magical. Thanks TravelEase for making our honeymoon special!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-card">
+                <h2>Get Exclusive Travel Deals</h2>
+                <p>Subscribe to our newsletter and be the first to know about special offers and discounts</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button class="primary-btn accent">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1 -->
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-plane-departure"></i>
+                        <span>TravelEase</span>
+                    </div>
+                    <p>Your trusted travel partner for flights, hotels, and holiday packages worldwide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Column 2 -->
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Holidays</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3 -->
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Cancellation Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4 -->
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Travel Street, Mumbai, India 400001</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+91 98765 43210</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>support@travelease.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2023 TravelEase. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
